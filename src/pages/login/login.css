@@ -65,6 +65,15 @@
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton:focus {
+    outline: none;
+}
+
+.loginButton:disabled {
+    outline: not-allowed;
 }
 
 .loginForgot {
@@ -82,5 +91,6 @@
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 
